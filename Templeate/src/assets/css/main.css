@@ -289,12 +289,12 @@ ul {
   filter: brightness(40%); }
 
 .carousel-caption h5 {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-family: 'Poppins', sans-serif; }
 
 .carousel-caption p {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   font-family: 'Poppins', sans-serif; }
 
@@ -341,3 +341,46 @@ ul {
   .qr .qrimg {
     width: 500px;
     padding: 1rem; }
+
+.promocion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/fondo4.jpg");
+  background-position: center;
+  background-size: cover; }
+  .promocion .principalWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    align-self: center;
+    align-items: center;
+    align-content: center; }
+  .promocion h1 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    font-size: 30px;
+    padding: 0,5rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px; }
+  .promocion button {
+    background: transparent;
+    padding: 0,5rem;
+    margin-bottom: 10px;
+    border: transparent; }
+    .promocion button a {
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Rubik', sans-serif;
+      font-size: 15px; }
+  .promocion button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px; }
+    .promocion button:hover a:hover {
+      color: black; }

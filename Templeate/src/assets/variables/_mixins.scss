@@ -50,6 +50,11 @@
            z-index: 1;
         }
      }
+     .carousel-indicators{
+      button{
+         background-color: white!important;
+      }
+   }
   }
 
   @mixin imageSize($width, $height) {
@@ -63,3 +68,5 @@
    justify-content: $justify-content;
    align-items: $align-items;
 }
+
+

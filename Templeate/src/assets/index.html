@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>E-commerc</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <style>
+        .rojo{
+            background: red;
+        }
+    </style>
     <main>
         <header>
             <div class="principalWrapper">
@@ -35,15 +41,214 @@
                 <p>New Spring Drops from over</p>
                 <button> <a href="">Buy Now</a></button>
             </div>
+        </section>
+
+        <section class="menu">
+            <div class="principalWrapper slider">
+                <div class="titulo">
+                    <h1>Lo Nuevo</h1>
+                </div>
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre1.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a  href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Buzo Marron</p>
+                        <div class="comprar">
+                            <span>$35.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre2.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre3.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre4.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre5.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre-camisa.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre7.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre8.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Camiseta cuello alto</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre-camisa2.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Camisa bolsillo</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href="">Buy</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="img/hombre-camisa4.jpg" alt="">
+                        </div>
+                        <span>Shoes,spneaker,men</span><a href=""><i class="far fa-heart" title="Favoritos"></i></a>
+                        <p>Leather Courriere</p>
+                        <div class="comprar">
+                            <span>$45.00</span>
+                            <button><a href=""></i> Buy</a></button>
+                        </div>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </section>
+        
+        <section class="coleccion">
+            <div class="principalWrapper">
+                <p>NEW TREND 2021</p>
+                <h1>Men Collection</h1>
+                <hr>
+                <button><a href="">Shop Now</a></button>
+            </div>
+
+        </section>
+        <section class="slider">
+            <div class="principalWrapper">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="./img/slider2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Dia del Niño</h5>
+                          <p>30% de descuento en ropa de chicos</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./img/slider3.jpg"  class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Lo mejor para vos</h5>
+                          <p>Experiencias Inolvidables,beneficios y mucho mas</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/home.jpg" class="d-block w-100" data-bs-interval="5000" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Para miembros</h5>
+                          <p>Unite a nuestro festival de una semana para descubrir lo nuevo</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+            </div>
+        </section>
+        
+        <section class="qr">
+            <div class="principalWrapper">
+                <div class="informacion">
+                    <h1>Convertite en miembro</h1>
+                    <p>Unite al programa de membresía gratuito de Mazia y participá en el festival Members Week, donde podrás disfrutar de experiencias exclusivas y descubrir lo mejor de adidas.</p>
+                    <button>Descargar la app <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div id="qrcode" class="qrimg">
+                    <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmart%25C3%25ADn-escalante%2F&s=8&e=m" alt="Generador de Códigos QR Codes"/>
+                </div>
+                    
+            </div>
+        </section>
+
+        <section class="promocion">
+            <div class="principalWrapper">
+                <h1>Los miembros reciben un 40% de descuento en productos seleccionados Mazia </h1>
+                <button><a href="">Comprar ahora</a></button>
+            </div>
             
         </section>
         
         
             
-        
 
         
     </main>
+    <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    
 </body>
 </html>
